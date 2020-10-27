@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ISE308-HOMEWORK1</string>
+    <string name="like">like</string>
+    <string name="xiaomi">XIAOMI</string>
+    <string name="xiaomi_china">Xiaomi China</string>
+    <string name="xiaomi_released_its_first_smartphone_in_august_2011_and_rapidly_gained_market_share_in_china_to_become_the_country_s_largest_smartphone_company_in_2014_xiaomi_has_16_700_employees_worldwide_it_has_expanded_to_other_markets_including_greater_china_singapore_japan_south_korea_russia_south_africa_and_most_countries_and_regions_in_southeast_asia_and_europe">Xiaomi released its first smartphone in August 2011 and rapidly gained market share in China to become the country\'s largest smartphone company in 2014. Xiaomi has 16,700 employees worldwide. It has expanded to other markets including Greater China, Singapore, Japan, South Korea, Russia, South Africa and most countries and regions in Southeast Asia and Europe.</string>
+    <string name="todo">TODO</string>
+    <string name="samsung">SAMSUNG</string>
+    <string name="apple">APPLE</string>
 </resources>

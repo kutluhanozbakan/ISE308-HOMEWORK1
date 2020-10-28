@@ -4,18 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="0.8"
-    android:background="#FBFBFB"
+    android:background="@color/colorCards"
     android:orientation="vertical"
     android:padding="@dimen/card_padding">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Head"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="@string/xiaomi"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorInformation"
         android:textSize="32sp" />
 
     <ImageView
@@ -41,21 +41,21 @@
             app:srcCompat="@drawable/like_button_deactive" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/Header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="0.8"
             android:gravity="center_vertical"
             android:text="@string/xiaomi_china"
-            android:textSize="20sp" />
+            android:textSize="10sp" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/information"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="@string/xiaomi_released_its_first_smartphone_in_august_2011_and_rapidly_gained_market_share_in_china_to_become_the_country_s_largest_smartphone_company_in_2014_xiaomi_has_16_700_employees_worldwide_it_has_expanded_to_other_markets_including_greater_china_singapore_japan_south_korea_russia_south_africa_and_most_countries_and_regions_in_southeast_asia_and_europe"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/colorInformation" />
 </LinearLayout>

@@ -4,25 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="0.8"
+    android:background="@color/colorCards"
     android:orientation="vertical"
     android:padding="8dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Head"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="@string/samsung"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="32sp" />
+        android:textColor="@color/colorInformation"
+        android:textSize="@dimen/head_size" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/samsung" />
+        app:srcCompat="@drawable/samsung"
+        android:contentDescription="@string/todo" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,28 +33,30 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="0.2"
+            android:contentDescription="@string/todo"
             app:srcCompat="@drawable/like_button_deactive" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/Header"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="0.8"
             android:gravity="center_vertical"
-            android:text="Samsung South-Korean"
-            android:textSize="20sp"
-            android:layout_width="wrap_content" />
+            android:text="@string/samsung_south_korean"
+            android:textSize="@dimen/header_size" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/information"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        android:text="Samsung was founded by Lee Byung-chul in 1938 as a trading company. Over the next three decades, the group diversified into areas including food processing, textiles, insurance, securities, and retail. Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s; these areas would drive its subsequent growth. Following Lee's death in 1987, Samsung was separated into four business groups – Samsung Group, Shinsegae Group, CJ Group and Hansol Group."
-        android:textColor="@color/colorPrimary" />
+        android:text="@string/samsung_was_founded_by_lee_byung_chul_in_1938_as_a_trading_company_over_the_next_three_decades_the_group_diversified_into_areas_including_food_processing_textiles_insurance_securities_and_retail_samsung_entered_the_electronics_industry_in_the_late_1960s_and_the_construction_and_shipbuilding_industries_in_the_mid_1970s_these_areas_would_drive_its_subsequent_growth_following_lee_s_death_in_1987_samsung_was_separated_into_four_business_groups_samsung_group_shinsegae_group_cj_group_and_hansol_group"
+        android:textColor="@color/colorInformation"
+        android:textSize="@dimen/information_size" />
 </LinearLayout>

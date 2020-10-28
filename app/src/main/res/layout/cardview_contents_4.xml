@@ -4,25 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="0.8"
+    android:background="@color/colorCards"
     android:orientation="vertical"
     android:padding="8dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Head"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="HUWAEI"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="32sp" />
+        android:text="@string/huwaei"
+        android:textColor="@color/colorInformation"
+        android:textSize="@dimen/head_size" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/huwaei" />
+        app:srcCompat="@drawable/huwaei"
+        android:contentDescription="@string/todo" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,25 +37,26 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="0.2"
-            app:srcCompat="@drawable/like_button_deactive"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/like_button"
+            app:srcCompat="@drawable/like_button_deactive" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/Header"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="0.8"
             android:gravity="center_vertical"
-            android:text="Huawei Chinese"
-            android:textSize="20dp"
-            android:layout_width="wrap_content" />
+            android:text="@string/huawei_chinese"
+            android:textSize="@dimen/header_size" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/information"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="The company was founded in 1987 by Ren Zhengfei, a former Deputy Regimental Chief in the People's Liberation Army.[5] Initially focused on manufacturing phone switches, Huawei has expanded its business to include building telecommunications networks, providing operational and consulting services and equipment to enterprises inside and outside of China, and manufacturing communications devices for the consumer market. Huawei has over 194,000 employees as of December 2019."
-        android:textColor="@color/colorPrimary" />
+        android:padding="@dimen/card_padding"
+        android:text="@string/the_company_was_founded_in_1987_by_ren_zhengfei_a_former_deputy_regimental_chief_in_the_people_s_liberation_army_5_initially_focused_on_manufacturing_phone_switches_huawei_has_expanded_its_business_to_include_building_telecommunications_networks_providing_operational_and_consulting_services_and_equipment_to_enterprises_inside_and_outside_of_china_and_manufacturing_communications_devices_for_the_consumer_market_huawei_has_over_194_000_employees_as_of_december_2019"
+        android:textColor="@color/colorInformation"
+        android:textSize="@dimen/information_size" />
 </LinearLayout>

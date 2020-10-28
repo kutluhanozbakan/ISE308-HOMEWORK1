@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ISE308-HOMEWORK1</string>
+    <string name="app_name">MOBILE PHONES -ISE308-HOMEWORK1</string>
     <string name="like">like</string>
     <string name="xiaomi">XIAOMI</string>
     <string name="xiaomi_china">Xiaomi China</string>
@@ -7,4 +7,14 @@
     <string name="todo">TODO</string>
     <string name="samsung">SAMSUNG</string>
     <string name="apple">APPLE</string>
+    <string name="samsung_was_founded_by_lee_byung_chul_in_1938_as_a_trading_company_over_the_next_three_decades_the_group_diversified_into_areas_including_food_processing_textiles_insurance_securities_and_retail_samsung_entered_the_electronics_industry_in_the_late_1960s_and_the_construction_and_shipbuilding_industries_in_the_mid_1970s_these_areas_would_drive_its_subsequent_growth_following_lee_s_death_in_1987_samsung_was_separated_into_four_business_groups_samsung_group_shinsegae_group_cj_group_and_hansol_group">Samsung was founded by Lee Byung-chul in 1938 as a trading company. Over the next three decades, the group diversified into areas including food processing, textiles, insurance, securities, and retail. Samsung entered the electronics industry in the late 1960s and the construction and shipbuilding industries in the mid-1970s; these areas would drive its subsequent growth. Following Lee\'s death in 1987, Samsung was separated into four business groups – Samsung Group, Shinsegae Group, CJ Group and Hansol Group.</string>
+    <string name="samsung_south_korean">Samsung South-Korean</string>
+    <string name="huwaei">HUWAEI</string>
+    <string name="the_company_was_founded_in_1987_by_ren_zhengfei_a_former_deputy_regimental_chief_in_the_people_s_liberation_army_5_initially_focused_on_manufacturing_phone_switches_huawei_has_expanded_its_business_to_include_building_telecommunications_networks_providing_operational_and_consulting_services_and_equipment_to_enterprises_inside_and_outside_of_china_and_manufacturing_communications_devices_for_the_consumer_market_huawei_has_over_194_000_employees_as_of_december_2019">The company was founded in 1987 by Ren Zhengfei, a former Deputy Regimental Chief in the People\'s Liberation Army.[5] Initially focused on manufacturing phone switches, Huawei has expanded its business to include building telecommunications networks, providing operational and consulting services and equipment to enterprises inside and outside of China, and manufacturing communications devices for the consumer market. Huawei has over 194,000 employees as of December 2019.</string>
+    <string name="huawei_chinese">Huawei Chinese</string>
+    <string name="like_button">like_button</string>
+    <string name="apple_american">Apple American</string>
+    <string name="apple_was_founded_by_steve_jobs_steve_wozniak_and_ronald_wayne_in_april_1976_to_develop_and_sell_wozniak_s_apple_i_personal_computer_though_wayne_sold_his_share_back_within_12_days_it_was_incorporated_as_apple_computer_inc_in_january_1977_and_sales_of_its_computers_including_the_apple_ii_grew_quickly">Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell Wozniak\'s Apple I personal computer, though Wayne sold his share back within 12 days. It was incorporated as Apple Computer, Inc., in January 1977, and sales of its computers, including the Apple II, grew quickly.</string>
+    <string name="vahit_kutluhan_zbakan_17244710056">Vahit Kutluhan Özbakan - 17244710056</string>
+
 </resources>

@@ -4,25 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_weight="0.8"
+    android:background="@color/colorCards"
     android:orientation="vertical"
     android:padding="8dp">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Head"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="@string/apple"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="32sp" />
+        android:textColor="@color/colorInformation"
+        android:textSize="@dimen/head_size" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/apple" />
+        app:srcCompat="@drawable/apple"
+        android:contentDescription="@string/todo" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,24 +37,26 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="0.2"
-            app:srcCompat="@drawable/like_button_deactive" />
+            app:srcCompat="@drawable/like_button_deactive"
+            android:contentDescription="@string/todo" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/Header"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="0.8"
             android:gravity="center_vertical"
-            android:text="Apple American"
-            android:textSize="20sp"
-            android:layout_width="wrap_content" />
+            android:text="@string/apple_american"
+            android:textSize="@dimen/header_size" />
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/information"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        android:text="Apple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell Wozniak's Apple I personal computer, though Wayne sold his share back within 12 days. It was incorporated as Apple Computer, Inc., in January 1977, and sales of its computers, including the Apple II, grew quickly. "
-        android:textColor="@color/colorPrimary" />
+        android:text="@string/apple_was_founded_by_steve_jobs_steve_wozniak_and_ronald_wayne_in_april_1976_to_develop_and_sell_wozniak_s_apple_i_personal_computer_though_wayne_sold_his_share_back_within_12_days_it_was_incorporated_as_apple_computer_inc_in_january_1977_and_sales_of_its_computers_including_the_apple_ii_grew_quickly"
+        android:textColor="@color/colorInformation"
+        android:textSize="@dimen/information_size" />
 </LinearLayout>
